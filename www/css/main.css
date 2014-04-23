@@ -1,0 +1,82 @@
+.box{
+    border-width:1px;
+    border-color:rgba(0,0,0,.7);
+    border-style: solid;
+    background-color:rgba(255,255,255,.5);
+    box-shadow: 0px 0px 5px black;
+    border-radius: 8px;
+}
+div{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px 5px 5px;
+
+}
+nav{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 20px ;
+    font-weight: 700;
+}
+a{
+    
+    border-radius: 5px;
+    padding: 4px 8px;
+    color: black;
+    text-decoration: none;
+}
+.btnStandby{
+}
+.btnStandby:hover{
+    text-shadow: 0px 0px 3px orange;
+    box-shadow: 0px 0px 3px black inset;
+}
+.btnStandby:active{
+    box-shadow: 0px 0px 5px black inset;
+}
+.btnActived{
+    text-shadow: 0px 0px 5px lightcyan;
+    box-shadow: 0px 0px 5px black inset;
+}
+
+#container{
+    /*border-color: black;*/
+    /*border-width: 2px;*/
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
+#banner{
+    font-size: 24pt;
+}
+#bannerIcon{
+    position:relative;
+    top:14px;
+    width: 50px;
+    height: 50px;
+}
+#statusbar{
+    padding:0px;
+}
+#content{
+    padding: 10px 35px;    
+}
+td{
+    padding: 5px 10px;
+}
+.field{
+    text-align: right;
+    font-weight: 800;
+}
+.field:after{
+    content: " : "
+}
+#newEmail{
+    width: 200px;
+}
+.errbox{
+    box-shadow: 0px 0px 4px red;
+}

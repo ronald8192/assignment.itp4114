@@ -1,0 +1,250 @@
+html {
+    -webkit-animation: bodyshadow;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+    animation: bodyshadow;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fakeBody {
+    font-size: 24pt;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    /*width:100vh;*/
+    /*height: 100vh;*/
+
+    /*-webkit-filter: blur(5px);*/
+    /*-moz-filter: blur(5px);
+     -o-filter: blur(5px);
+     -ms-filter: blur(5px);
+     filter: blur(5px);
+     */
+    /*background-color:rgba(255,255,255,.5);*/
+    /*margin: 0px 0px 0px 0px ;
+     padding-bottom: 0px;*/
+    /*position: relative;
+     left: -10px;
+     right: -10px;*/
+    /*text-align:center;*/
+}
+.banner {
+    /*min-width:800px;*/
+    /*min-height:500px;*/
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 8vh;
+    display: none;
+    font-size: 6vmin;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 0px 0px 10px orange;
+}
+#bannerIcon {
+    position: relative;
+    top: 18px;
+    -webkit-filter: drop-shadow(0 0 10px orange);
+}
+.box-login {
+    display: none;
+    border-radius: 50px;
+    box-shadow: 4px 4px 12px 4px rgba(20%,20%,40%,0.5);
+    position: absolute;
+    left: 50%;
+    /*top: 60%;*/
+    top: 60vh;
+    margin-top: -21vmin;
+    margin-left: -21vmin;
+    width: 42vmin;
+    height: 42vmin;
+    min-width: 240px;
+    min-height: 240px;
+    background: -webkit-radial-gradient(white, #ffcc80); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(white, #ffcc80); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(white, #ffcc80); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(white, #ffcc80); /* Standard syntax (must be last) */
+}
+.title {
+    font-size: 36px;
+    font-weight: 100;
+    position: relative;
+    top: 30px;
+    color: black;
+    text-shadow: 0px 0px 8px lightcyan;
+}
+.msg {
+    position: relative;
+    top: 50px;
+}
+.txtBox {
+    /*-webkit-appearance: searchfield;
+    -moz-appearance: searchfield;
+    -o-appearance: searchfield;
+    -ms-appearance: searchfield;*/
+    /*-webkit-appearance:searchfield-decoration;*/
+    position: relative;
+    top: 10vh;
+    height: 1vh;
+    width: 18vw;
+    margin: 5px auto 5px auto;
+    /*font-size: 15pt;*/
+    box-shadow:  0px 0px 3px rgba(0,0,0,.3) inset;
+    /*background-color: rgba(0,0,0,0);*/
+    border-radius: 50px;
+    border-color: rgba(0,0,0,.4);
+    border-width: 1px;
+    /*color: #001550;*/
+    text-shadow: 0px 0px 1px lightgray;
+    font-weight: 100;
+    text-align: center;
+    min-width: 160px;
+    min-height: 20px;
+    max-width: 210px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.txtBox:focus {
+    box-shadow: 0px 0px 10px orange;
+}
+#studid {
+}
+#passwd {
+
+}
+#studLogin {
+    width: 65%;
+    height: 30px;
+    padding: 2px 10px 22px 10px;
+    position: relative;
+    top: 12vh;
+    /*background-color: #0000FF;*/
+    color: #FFFFFF;
+    font-size: 14pt;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-image: -moz-linear-gradient(center top , #b2e2f9, #6f84b9);
+    background-image: -webkit-linear-gradient(top,#b2e2f9,#6f84b9);
+    background-image: -ms-linear-gradient(top,#b2e2f9,#6f84b9);
+    background-image: -o-linear-gradient(top,#b2e2f9,#6f84b9);
+    background-image: linear-gradient(top,#b2e2f9,#6f84b9);
+    box-shadow: 0px 0px 1px rgba(200,255,255,1);
+    text-shadow: 0px 0px 2px black;
+}
+#studLogin:hover {
+    box-shadow: 0px 0px 10px lightcyan;
+    background-image: -moz-linear-gradient(center top , #a3d3ea, #6075aa);
+    background-image: -webkit-linear-gradient(top,#a3d3ea,#6075aa);
+    background-image: -ms-linear-gradient(top,#a3d3ea,#6075aa);
+    background-image: -o-linear-gradient(top,#a3d3ea,#6075aa);
+    background-image: linear-gradient(top,#a3d3ea,#6075aa);
+}
+#studLogin:active {
+    box-shadow: 1px 1px 2px black inset;
+}
+.hide {
+    display: none;
+}
+.footer {
+    text-shadow: 0px 0px 5px lightcyan;
+    background-color: rgba(100,100,100,0);
+    font-family: Courier;
+    font-size: 10pt;
+    /*padding: 0px 0px 0px 0px;*/
+    position: fixed;
+    width: 100%;
+    height: 15px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: #fff;
+}
+@-webkit-keyframes bodyshadow{
+    
+0% {box-shadow: 0px 0px 30px rgb(0, 232, 193) inset}
+12% {box-shadow: 0px 0px 30px rgb(95, 176, 241) inset}
+25% {box-shadow: 0px 0px 30px rgb(190, 76, 253) inset}
+37% {box-shadow: 0px 0px 30px rgb(243, 30, 218) inset}
+50% {box-shadow: 0px 0px 30px rgb(252, 139, 136) inset}
+62% {box-shadow: 0px 0px 30px rgb(220, 209, 46) inset}
+75% {box-shadow: 0px 0px 30px rgb(153, 249, 55) inset}
+87% {box-shadow: 0px 0px 30px rgb(76, 253, 135) inset}
+100% {box-shadow: 0px 0px 30px rgb(0, 232, 193) inset}
+    
+/*
+0% {box-shadow: 0px 0px 30px rgb(0,232,193) inset}
+6% {box-shadow: 0px 0px 30px rgb(51,206,222) inset}
+13% {box-shadow: 0px 0px 30px rgb(99,172,243) inset}
+19% {box-shadow: 0px 0px 30px rgb(144,131,253) inset}
+25% {box-shadow: 0px 0px 30px rgb(183,85,254) inset}
+31% {box-shadow: 0px 0px 30px rgb(215,36,245) inset}
+38% {box-shadow: 0px 0px 30px rgb(238,15,225) inset}
+44% {box-shadow: 0px 0px 30px rgb(251,65,197) inset}
+50% {box-shadow: 0px 0px 30px rgb(255,113,161) inset}
+56% {box-shadow: 0px 0px 30px rgb(248,156,118) inset}
+63% {box-shadow: 0px 0px 30px rgb(232,193,71) inset}
+69% {box-shadow: 0px 0px 30px rgb(206,222,21) inset}
+75% {box-shadow: 0px 0px 30px rgb(172,243,30) inset}
+81% {box-shadow: 0px 0px 30px rgb(131,253,79) inset}
+88% {box-shadow: 0px 0px 30px rgb(85,254,126) inset}
+94% {box-shadow: 0px 0px 30px rgb(36,245,168) inset}
+100% {box-shadow: 0px 0px 30px rgb(0,232,193) inset}*/
+}
+
+@keyframes bodyshadow{
+    
+    0% {box-shadow: 0px 0px 30px rgb(0, 232, 193) inset}
+12% {box-shadow: 0px 0px 30px rgb(95, 176, 241) inset}
+25% {box-shadow: 0px 0px 30px rgb(190, 76, 253) inset}
+37% {box-shadow: 0px 0px 30px rgb(243, 30, 218) inset}
+50% {box-shadow: 0px 0px 30px rgb(252, 139, 136) inset}
+62% {box-shadow: 0px 0px 30px rgb(220, 209, 46) inset}
+75% {box-shadow: 0px 0px 30px rgb(153, 249, 55) inset}
+87% {box-shadow: 0px 0px 30px rgb(76, 253, 135) inset}
+100% {box-shadow: 0px 0px 30px rgb(0, 232, 193) inset}
+    
+/*
+0% {box-shadow: 0px 0px 30px rgb(0,232,193) inset}
+6% {box-shadow: 0px 0px 30px rgb(51,206,222) inset}
+13% {box-shadow: 0px 0px 30px rgb(99,172,243) inset}
+19% {box-shadow: 0px 0px 30px rgb(144,131,253) inset}
+25% {box-shadow: 0px 0px 30px rgb(183,85,254) inset}
+31% {box-shadow: 0px 0px 30px rgb(215,36,245) inset}
+38% {box-shadow: 0px 0px 30px rgb(238,15,225) inset}
+44% {box-shadow: 0px 0px 30px rgb(251,65,197) inset}
+50% {box-shadow: 0px 0px 30px rgb(255,113,161) inset}
+56% {box-shadow: 0px 0px 30px rgb(248,156,118) inset}
+63% {box-shadow: 0px 0px 30px rgb(232,193,71) inset}
+69% {box-shadow: 0px 0px 30px rgb(206,222,21) inset}
+75% {box-shadow: 0px 0px 30px rgb(172,243,30) inset}
+81% {box-shadow: 0px 0px 30px rgb(131,253,79) inset}
+88% {box-shadow: 0px 0px 30px rgb(85,254,126) inset}
+94% {box-shadow: 0px 0px 30px rgb(36,245,168) inset}
+100% {box-shadow: 0px 0px 30px rgb(0,232,193) inset}*/
+}
+
+/*rgb(0, 232, 193)
+rgb(95, 176, 241)
+rgb(190, 76, 253)
+rgb(243, 30, 218)
+rgb(252, 139, 136)
+rgb(220, 209, 46)
+rgb(153, 249, 55)
+rgb(76, 253, 135)
+rgb(0, 232, 193)*/
+
+
+/*text-decoration:underline;*/
