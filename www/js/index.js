@@ -22,6 +22,7 @@ function studlogin(){
 		$("#msg").html("Enter your password!");
 		return false;
 	}else{
+		window.location.assign("main.html");
 		return true;
 	}
 }
