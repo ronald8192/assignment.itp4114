@@ -35,9 +35,9 @@
                 <!-- content -->
                 <form action="updateemail.html" method="post">
                     <table>
-                        <tr><td class="field">Current email</td><td>sosad@assignment.edu.xx</td></tr>
+                        <tr><td class="field">Current email</td><td id="currentEmail">sosad@assignment.edu.xx</td></tr>
                         <tr><td class="field">New email</td><td><input type="text" name="newEmail" id="newEmail" value=""/><span id="msg" class="msg err"> </span></td></tr>
-                        <tr><td></td><td><input type="submit" value="Update" onclick="javascript: return checkEmail()"/></td></tr>                    
+                        <tr><td></td><td><input type="button" value="Update" onclick="checkEmail()"/></td></tr>                    
                     </table>
                 </form>
             </div>
