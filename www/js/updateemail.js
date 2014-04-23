@@ -11,6 +11,7 @@ function checkEmail(){
 		$("#newEmail").addClass("errbox");
 		return false;
 	}else{		
+		$("#currentEmail").html($("#newEmail").val());
 		return true;
 	}
 }
